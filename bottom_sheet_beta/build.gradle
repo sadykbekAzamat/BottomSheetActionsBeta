@@ -25,7 +25,7 @@ publishing {
         release(MavenPublication) {
             groupId = "com.github.sadykbekAzamat"
             artifactId = "bottom-sheet-actions-beta"
-            version = project.version
+            version = "1.0.4"
 
             afterEvaluate {
                 from components.release
