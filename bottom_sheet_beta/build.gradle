@@ -1,9 +1,11 @@
 plugins {
     alias(libs.plugins.android.library)
+    id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
-    namespace 'kz.beta.bottom_sheet'
+    namespace 'kz.beta.bottom_sheet_beta'
     compileSdk {
         version = release(36)
     }
@@ -24,6 +26,18 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
+    }
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = "com.github.sadykbekAzamat"
+                artifactId = "bottom-sheet-beta"
+                version = "1.0.0"
+            }
+        }
     }
 }
 
