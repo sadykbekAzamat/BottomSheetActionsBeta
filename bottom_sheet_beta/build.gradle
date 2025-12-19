@@ -1,7 +1,8 @@
 plugins {
-    id 'com.android.library'
-    id 'maven-publish'
+    id "com.android.library"
+    id "maven-publish"
 }
+
 
 android {
     namespace "kz.beta.bottom_sheet_beta"
@@ -11,22 +12,23 @@ android {
         minSdk 21
     }
 
-    buildTypes {
-        release {
-            minifyEnabled false
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
         }
     }
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
 
-                groupId = "com.github.sadykbekAzamat"
-                artifactId = "bottom-sheet-actions-beta"
-                version = "1.0.3"
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = "com.github.sadykbekAzamat"
+            artifactId = "bottom-sheet-actions-beta"
+            version = project.version
+
+            afterEvaluate {
+                from components.release
             }
         }
     }
