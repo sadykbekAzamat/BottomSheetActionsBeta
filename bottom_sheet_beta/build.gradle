@@ -24,7 +24,7 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = "com.github.sadykbekAzamat"
-            artifactId = "bottom-sheet-actions-beta"
+            artifactId = "BottomSheetActionsBeta"
             version = "1.0.4"
 
             afterEvaluate {
