@@ -277,7 +277,7 @@ public class BottomSheetBeta extends BottomSheetDialogFragment {
 
     @Override
     public int getTheme() {
-        return R.style.TransparentBottomSheetDialog;
+        return R.style.Bsb_TransparentBottomSheetDialog;
     }
     private int dp(int value) {
         return (int) (value * requireContext().getResources().getDisplayMetrics().density);

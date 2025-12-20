@@ -1,0 +1,940 @@
+Build starting...
+Build image: default
+Start: Fri Dec 19 12:31:35 UTC 2025 e326627e2988
+Git:
+1.0.6-0-g459b0f5
+commit 459b0f56eca5c168f13794bd8875451f7ee2691e
+Author: Azamat Sadykbek 
+Date:   Fri Dec 19 17:31:17 2025 +0500
+
+    1.0.6
+
+
+Init SDKMan
+Found Android manifest
+Android SDK version: . Build tools: 
+Found gradle
+Gradle build script
+Gradle wrapper found
+Init SDKMan
+Found gradle version: 8.13.
+Using gradle wrapper
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Downloading https://services.gradle.org/distributions/gradle-8.13-bin.zip
+.10%.20%.30%.40%.50%.60%.70%.80%.90%.100%
+
+------------------------------------------------------------
+Gradle 8.13
+------------------------------------------------------------
+
+Build time:    2025-02-25 09:22:14 UTC
+Revision:      073314332697ba45c16c0a0ce1891fa6794179ff
+
+Kotlin:        2.0.21
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Launcher JVM:  11.0.2 (Oracle Corporation 11.0.2+9)
+Daemon JVM:    /usr/lib/jvm/jdk-11 (no JDK specified, using current Java home)
+OS:            Linux 4.10.0-28-generic amd64
+
+0m5.148s
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+Getting tasks: ./gradlew tasks --all
+Found tasks
+
+⚠️  WARNING:  > Android Gradle plugin requires Java 17 to run. You are currently using Java 11.
+Please specify Java version in jitpack.yml
+See documentation at https://docs.jitpack.io/building/#java-version
+
+[1;33mWe periodically need to update the local cache. Please run:[0m
+
+  $ sdk update
+
+[1;36mBroadcasts discontinued. Please follow @sdkman_ on Twitter for announcements.[0m
+
+Downloading: java 17.0.14-amzn
+
+In progress...
+
+
+Repackaging Java 17.0.14-amzn...
+
+Done repackaging...
+
+[1;32mInstalling: java 17.0.14-amzn[0m
+[1;32mDone installing![0m
+
+
+[1;32mSetting java 17.0.14-amzn as default.[0m
+[1;33mWe periodically need to update the local cache. Please run:[0m
+
+  $ sdk update
+
+
+[1;32mUsing java version 17.0.14-amzn in this shell.[0m
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Launcher JVM:  17.0.14 (Amazon.com Inc. 17.0.14+7-LTS)
+Daemon JVM:    /home/jitpack/.sdkman/candidates/java/17.0.14-amzn (no JDK specified, using current Java home)
+Tasks: publishToMavenLocal,
+
+Running: ./gradlew clean -Pgroup=com.github.sadykbekAzamat -Pversion=1.0.6 -xtest -xlint assemble publishToMavenLocal
+
+Checking the license for package Android SDK Build-Tools 35 in /opt/android-sdk-linux/licenses
+License for package Android SDK Build-Tools 35 accepted.
+Preparing "Install Android SDK Build-Tools 35 v.35.0.0".
+"Install Android SDK Build-Tools 35 v.35.0.0" ready.
+Installing Android SDK Build-Tools 35 in /opt/android-sdk-linux/build-tools/35.0.0
+"Install Android SDK Build-Tools 35 v.35.0.0" complete.
+"Install Android SDK Build-Tools 35 v.35.0.0" finished.
+Checking the license for package Android SDK Platform 36 in /opt/android-sdk-linux/licenses
+License for package Android SDK Platform 36 accepted.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+"Install Android SDK Platform 36 (revision 2)" ready.
+Installing Android SDK Platform 36 in /opt/android-sdk-linux/platforms/android-36
+"Install Android SDK Platform 36 (revision 2)" complete.
+"Install Android SDK Platform 36 (revision 2)" finished.
+[=========                              ] 25%                                   
+> Task :app:clean UP-TO-DATE
+> Task :bottom_sheet_beta:clean UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:checkDebugAarMetadata
+> Task :app:processDebugNavigationResources
+> Task :app:generateDebugResValues
+> Task :app:compileDebugNavigationResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugManifestForPackage
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs NO-SOURCE
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileRelease
+> Task :app:checkReleaseAarMetadata
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseNavigationResources
+> Task :app:compileReleaseNavigationResources
+> Task :app:generateReleaseResValues
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:parseReleaseLocalResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseStartupProfile
+> Task :app:mergeReleaseResources
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseJavaResource
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :bottom_sheet_beta:preBuild UP-TO-DATE
+> Task :bottom_sheet_beta:preDebugBuild UP-TO-DATE
+> Task :bottom_sheet_beta:checkDebugAarMetadata
+> Task :bottom_sheet_beta:mergeDebugJniLibFolders
+> Task :bottom_sheet_beta:mergeDebugNativeLibs NO-SOURCE
+> Task :bottom_sheet_beta:stripDebugDebugSymbols NO-SOURCE
+> Task :bottom_sheet_beta:generateDebugResValues
+> Task :bottom_sheet_beta:generateDebugResources
+> Task :bottom_sheet_beta:copyDebugJniLibsProjectAndLocalJars
+> Task :bottom_sheet_beta:packageDebugResources
+> Task :bottom_sheet_beta:processDebugNavigationResources
+> Task :bottom_sheet_beta:parseDebugLocalResources
+> Task :bottom_sheet_beta:extractDeepLinksForAarDebug
+> Task :bottom_sheet_beta:generateDebugRFile
+> Task :bottom_sheet_beta:mergeDebugShaders
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexRelease
+> Task :bottom_sheet_beta:extractDebugAnnotations
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:generateReleaseLintVitalReportModel
+> Task :bottom_sheet_beta:compileDebugShaders NO-SOURCE
+> Task :bottom_sheet_beta:generateDebugAssets UP-TO-DATE
+> Task :bottom_sheet_beta:mergeDebugAssets
+> Task :bottom_sheet_beta:javaPreCompileDebug
+> Task :bottom_sheet_beta:prepareDebugArtProfile
+
+> Task :bottom_sheet_beta:compileDebugJavaWithJavac FAILED
+
+> Task :app:optimizeReleaseResources
+> Task :app:mergeDexRelease
+> Task :app:lintVitalAnalyzeRelease
+
+[Incubating] Problems report is available at: file:///home/jitpack/build/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+90 actionable tasks: 88 executed, 2 up-to-date
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:21: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:22: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:23: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:25: error: package com.google.android.material.bottomsheet does not exist
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+                                              ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:26: error: package com.google.android.material.bottomsheet does not exist
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+                                              ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:31: error: cannot find symbol
+public class BottomSheetBeta extends BottomSheetDialogFragment {
+                                     ^
+  symbol: class BottomSheetDialogFragment
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:43: error: cannot find symbol
+            @Nullable Runnable onCancel,
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:44: error: cannot find symbol
+            @Nullable String cancelBtnText
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:59: error: cannot find symbol
+            @Nullable Runnable onCancel
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:72: error: cannot find symbol
+            @Nullable Runnable onCancel,
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:73: error: cannot find symbol
+            @Nullable String cancelBtnText
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:85: error: cannot find symbol
+            @Nullable Runnable onCancel,
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:86: error: cannot find symbol
+            @Nullable String cancelBtnText
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:98: error: cannot find symbol
+            @Nullable Runnable onCancel
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:109: error: cannot find symbol
+            @Nullable Runnable onCancel
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:120: error: cannot find symbol
+            @NonNull LayoutInflater inflater,
+             ^
+  symbol:   class NonNull
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:121: error: cannot find symbol
+            @Nullable ViewGroup container,
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:122: error: cannot find symbol
+            @Nullable Bundle savedInstanceState
+             ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:117: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:186: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:235: error: cannot find symbol
+    @RequiresApi(Build.VERSION_CODES.S)
+     ^
+  symbol:   class RequiresApi
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:274: error: cannot find symbol
+    public void onDismiss(@NonNull DialogInterface dialog) {
+                           ^
+  symbol:   class NonNull
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:118: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:126: error: cannot find symbol
+        LinearLayout containerActions = v.findViewById(R.id.actionsContainer);
+                                                        ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:127: error: cannot find symbol
+        TextView cancel = v.findViewById(R.id.btnCancel);
+                                          ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:128: error: cannot find symbol
+        View white_level = v.findViewById(R.id.white_level);
+                                           ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:139: error: cannot find symbol
+            TextView info_text = new TextView(requireContext());
+                                              ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:154: error: cannot find symbol
+            TextView btn = new TextView(requireContext());
+                                        ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:170: error: cannot find symbol
+                dismiss();
+                ^
+  symbol:   method dismiss()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:179: error: cannot find symbol
+            dismiss();
+            ^
+  symbol:   method dismiss()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:187: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:189: error: cannot find symbol
+        BottomSheetDialog dialog =
+        ^
+  symbol:   class BottomSheetDialog
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:190: error: cannot find symbol
+                (BottomSheetDialog) super.onCreateDialog(savedInstanceState);
+                 ^
+  symbol:   class BottomSheetDialog
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:190: error: cannot find symbol
+                (BottomSheetDialog) super.onCreateDialog(savedInstanceState);
+                                    ^
+  symbol:   variable super
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:194: error: cannot find symbol
+            FrameLayout glass = dialog.findViewById(R.id.cardView);
+                                                     ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:195: error: cannot find symbol
+            FrameLayout blurLayer = dialog.findViewById(R.id.blurLayer);
+                                                         ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:197: error: cannot find symbol
+            View root = requireActivity()
+                        ^
+  symbol:   method requireActivity()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:225: error: package com.google.android.material.R does not exist
+                    com.google.android.material.R.id.design_bottom_sheet
+                                                 ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:238: error: cannot find symbol
+        ImageView blurView = new ImageView(requireContext());
+                                           ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:254: error: cannot find symbol
+        View overlay = new View(requireContext());
+                                ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:273: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:275: error: cannot find symbol
+        super.onDismiss(dialog);
+        ^
+  symbol:   variable super
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:278: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:280: error: cannot find symbol
+        return R.style.TransparentBottomSheetDialog;
+                ^
+  symbol:   variable style
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:283: error: cannot find symbol
+        return (int) (value * requireContext().getResources().getDisplayMetrics().density);
+                              ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:294: error: cannot find symbol
+        LinearLayout root = new LinearLayout(requireContext());
+                                             ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:303: error: package androidx.constraintlayout.widget does not exist
+        androidx.constraintlayout.widget.ConstraintLayout constraintLayout =
+                                        ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:304: error: package androidx.constraintlayout.widget does not exist
+                new androidx.constraintlayout.widget.ConstraintLayout(requireContext());
+                                                    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:304: error: cannot find symbol
+                new androidx.constraintlayout.widget.ConstraintLayout(requireContext());
+                                                                      ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:311: error: package androidx.cardview.widget does not exist
+        androidx.cardview.widget.CardView cardView =
+                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:312: error: package androidx.cardview.widget does not exist
+                new androidx.cardview.widget.CardView(requireContext());
+                                            ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:312: error: cannot find symbol
+                new androidx.cardview.widget.CardView(requireContext());
+                                                      ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:313: error: cannot find symbol
+        cardView.setId(R.id.cardView);
+                        ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:319: error: cannot find symbol
+        FrameLayout blurLayer = new FrameLayout(requireContext());
+                                                ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:320: error: cannot find symbol
+        blurLayer.setId(R.id.blurLayer);
+                         ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:327: error: cannot find symbol
+        View whiteLevel = new View(requireContext());
+                                   ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:328: error: cannot find symbol
+        whiteLevel.setId(R.id.white_level);
+                          ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:335: error: cannot find symbol
+        LinearLayout actionsContainer = new LinearLayout(requireContext());
+                                                         ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:336: error: cannot find symbol
+        actionsContainer.setId(R.id.actionsContainer);
+                                ^
+  symbol:   variable id
+  location: class R
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:353: error: package androidx.constraintlayout.widget does not exist
+        androidx.constraintlayout.widget.ConstraintSet set =
+                                        ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:354: error: package androidx.constraintlayout.widget does not exist
+                new androidx.constraintlayout.widget.ConstraintSet();
+                                                    ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:358: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.TOP,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:359: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:360: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.TOP);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:363: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.BOTTOM,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:364: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:365: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.BOTTOM);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:368: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.START,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:369: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:370: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.START);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:373: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.END,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:374: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:375: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.END);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:378: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.TOP,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:379: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:380: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.TOP);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:383: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.BOTTOM,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:384: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:385: error: package androidx.constraintlayout.widget does not exist
+                androidx.constraintlayout.widget.ConstraintSet.BOTTOM);
+                                                ^
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:389: error: cannot find symbol
+        TextView cancelBtn = new TextView(requireContext());
+                                          ^
+  symbol:   method requireContext()
+  location: class BottomSheetBeta
+/home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:390: error: cannot find symbol
+        cancelBtn.setId(R.id.btnCancel);
+                         ^
+  symbol:   variable id
+  location: class R
+81 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bottom_sheet_beta:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:21: error: cannot find symbol
+  import androidx.annotation.NonNull;
+                            ^
+    symbol:   class NonNull
+    location: package androidx.annotation
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:22: error: cannot find symbol
+  import androidx.annotation.Nullable;
+                            ^
+    symbol:   class Nullable
+    location: package androidx.annotation
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:23: error: cannot find symbol
+  import androidx.annotation.RequiresApi;
+                            ^
+    symbol:   class RequiresApi
+    location: package androidx.annotation
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:25: error: package com.google.android.material.bottomsheet does not exist
+  import com.google.android.material.bottomsheet.BottomSheetDialog;
+                                                ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:26: error: package com.google.android.material.bottomsheet does not exist
+  import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+                                                ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:31: error: cannot find symbol
+  public class BottomSheetBeta extends BottomSheetDialogFragment {
+                                       ^
+    symbol: class BottomSheetDialogFragment
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:43: error: cannot find symbol
+              @Nullable Runnable onCancel,
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:44: error: cannot find symbol
+              @Nullable String cancelBtnText
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:59: error: cannot find symbol
+              @Nullable Runnable onCancel
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:72: error: cannot find symbol
+              @Nullable Runnable onCancel,
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:73: error: cannot find symbol
+              @Nullable String cancelBtnText
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:85: error: cannot find symbol
+              @Nullable Runnable onCancel,
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:86: error: cannot find symbol
+              @Nullable String cancelBtnText
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:98: error: cannot find symbol
+              @Nullable Runnable onCancel
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:109: error: cannot find symbol
+              @Nullable Runnable onCancel
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:120: error: cannot find symbol
+              @NonNull LayoutInflater inflater,
+               ^
+    symbol:   class NonNull
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:121: error: cannot find symbol
+              @Nullable ViewGroup container,
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:122: error: cannot find symbol
+              @Nullable Bundle savedInstanceState
+               ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:117: error: cannot find symbol
+      @Nullable
+       ^
+    symbol:   class Nullable
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:186: error: cannot find symbol
+      @NonNull
+       ^
+    symbol:   class NonNull
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:235: error: cannot find symbol
+      @RequiresApi(Build.VERSION_CODES.S)
+       ^
+    symbol:   class RequiresApi
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:274: error: cannot find symbol
+      public void onDismiss(@NonNull DialogInterface dialog) {
+                             ^
+    symbol:   class NonNull
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:118: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:126: error: cannot find symbol
+          LinearLayout containerActions = v.findViewById(R.id.actionsContainer);
+                                                          ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:127: error: cannot find symbol
+          TextView cancel = v.findViewById(R.id.btnCancel);
+                                            ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:128: error: cannot find symbol
+          View white_level = v.findViewById(R.id.white_level);
+                                             ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:139: error: cannot find symbol
+              TextView info_text = new TextView(requireContext());
+                                                ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:154: error: cannot find symbol
+              TextView btn = new TextView(requireContext());
+                                          ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:170: error: cannot find symbol
+                  dismiss();
+                  ^
+    symbol:   method dismiss()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:179: error: cannot find symbol
+              dismiss();
+              ^
+    symbol:   method dismiss()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:187: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:189: error: cannot find symbol
+          BottomSheetDialog dialog =
+          ^
+    symbol:   class BottomSheetDialog
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:190: error: cannot find symbol
+                  (BottomSheetDialog) super.onCreateDialog(savedInstanceState);
+                   ^
+    symbol:   class BottomSheetDialog
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:190: error: cannot find symbol
+                  (BottomSheetDialog) super.onCreateDialog(savedInstanceState);
+                                      ^
+    symbol:   variable super
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:194: error: cannot find symbol
+              FrameLayout glass = dialog.findViewById(R.id.cardView);
+                                                       ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:195: error: cannot find symbol
+              FrameLayout blurLayer = dialog.findViewById(R.id.blurLayer);
+                                                           ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:197: error: cannot find symbol
+              View root = requireActivity()
+                          ^
+    symbol:   method requireActivity()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:225: error: package com.google.android.material.R does not exist
+                      com.google.android.material.R.id.design_bottom_sheet
+                                                   ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:238: error: cannot find symbol
+          ImageView blurView = new ImageView(requireContext());
+                                             ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:254: error: cannot find symbol
+          View overlay = new View(requireContext());
+                                  ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:273: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:275: error: cannot find symbol
+          super.onDismiss(dialog);
+          ^
+    symbol:   variable super
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:278: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:280: error: cannot find symbol
+          return R.style.TransparentBottomSheetDialog;
+                  ^
+    symbol:   variable style
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:283: error: cannot find symbol
+          return (int) (value * requireContext().getResources().getDisplayMetrics().density);
+                                ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:294: error: cannot find symbol
+          LinearLayout root = new LinearLayout(requireContext());
+                                               ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:303: error: package androidx.constraintlayout.widget does not exist
+          androidx.constraintlayout.widget.ConstraintLayout constraintLayout =
+                                          ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:304: error: package androidx.constraintlayout.widget does not exist
+                  new androidx.constraintlayout.widget.ConstraintLayout(requireContext());
+                                                      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:304: error: cannot find symbol
+                  new androidx.constraintlayout.widget.ConstraintLayout(requireContext());
+                                                                        ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:311: error: package androidx.cardview.widget does not exist
+          androidx.cardview.widget.CardView cardView =
+                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:312: error: package androidx.cardview.widget does not exist
+                  new androidx.cardview.widget.CardView(requireContext());
+                                              ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:312: error: cannot find symbol
+                  new androidx.cardview.widget.CardView(requireContext());
+                                                        ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:313: error: cannot find symbol
+          cardView.setId(R.id.cardView);
+                          ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:319: error: cannot find symbol
+          FrameLayout blurLayer = new FrameLayout(requireContext());
+                                                  ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:320: error: cannot find symbol
+          blurLayer.setId(R.id.blurLayer);
+                           ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:327: error: cannot find symbol
+          View whiteLevel = new View(requireContext());
+                                     ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:328: error: cannot find symbol
+          whiteLevel.setId(R.id.white_level);
+                            ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:335: error: cannot find symbol
+          LinearLayout actionsContainer = new LinearLayout(requireContext());
+                                                           ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:336: error: cannot find symbol
+          actionsContainer.setId(R.id.actionsContainer);
+                                  ^
+    symbol:   variable id
+    location: class R
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:353: error: package androidx.constraintlayout.widget does not exist
+          androidx.constraintlayout.widget.ConstraintSet set =
+                                          ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:354: error: package androidx.constraintlayout.widget does not exist
+                  new androidx.constraintlayout.widget.ConstraintSet();
+                                                      ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:358: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.TOP,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:359: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:360: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.TOP);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:363: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.BOTTOM,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:364: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:365: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.BOTTOM);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:368: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.START,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:369: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:370: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.START);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:373: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.END,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:374: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:375: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.END);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:378: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.TOP,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:379: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:380: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.TOP);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:383: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.BOTTOM,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:384: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.PARENT_ID,
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:385: error: package androidx.constraintlayout.widget does not exist
+                  androidx.constraintlayout.widget.ConstraintSet.BOTTOM);
+                                                  ^
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:389: error: cannot find symbol
+          TextView cancelBtn = new TextView(requireContext());
+                                            ^
+    symbol:   method requireContext()
+    location: class BottomSheetBeta
+  /home/jitpack/build/bottom_sheet_beta/src/main/java/kz/beta/bottom_sheet_beta/BottomSheetBeta.java:390: error: cannot find symbol
+          cancelBtn.setId(R.id.btnCancel);
+                           ^
+    symbol:   variable id
+    location: class R
+  81 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2m 29s
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Publication: com.github.sadykbekAzamat:BottomSheetActionsBeta:1.0.6
+Build tool exit code: 1
+⚠️ Build failed. See errors above.
+2025-12-19T12:35:39.679991026Z
+Exit code: 1
+
