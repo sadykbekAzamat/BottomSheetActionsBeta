@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.sadykbekAzamat:BottomSheetActionsBeta:1.0.7'
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity

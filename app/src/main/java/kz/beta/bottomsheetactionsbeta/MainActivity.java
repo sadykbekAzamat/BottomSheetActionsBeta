@@ -8,6 +8,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import kz.beta.bottom_sheet_beta.BottomSheetBeta;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +26,38 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        List<BottomSheetBeta.ActionItem> actions = new ArrayList<>();
+
+        actions.add(new BottomSheetBeta.ActionItem(
+                "Сохранить",
+                () -> {
+                    // действие при нажатии
+                },
+                true // positive (синий)
+        ));
+
+        actions.add(new BottomSheetBeta.ActionItem(
+                "Удалить",
+                () -> {
+                    // опасное действие
+                },
+                false // negative (красный)
+        ));
+
+        BottomSheetBeta sheet = BottomSheetBeta.newInstance(
+                actions,
+                1,                 // white_level (прозрачность белого слоя)
+                "Выберите действие",// infoText (можно "" или null)
+                () -> {
+                    // onCancel
+                },
+                "Отмена"            // текст кнопки Cancel
+        );
+
+// Показ
+        sheet.show(getSupportFragmentManager(), "BottomSheetBeta");
+
 
     }
 }
